@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #f4d04e;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 500px;
+    margin: 4rem auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 #000,
+                -1px -1px 0 #000;
+                
+}
+
+.container .box-1 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.container .box-2 .content-page .btn {
+    display: block;
+    background-color: #f4d04e;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 20px ;
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+}
+
+.container .box-2 .content-page p {
+    color: #121212;
+}
+
+.container .box-2 .content-page h2 {
+    margin: 20px 0;
+    color: #121212f3;
+}
+
+.container .box-2 .content-page h2:hover {
+    color: #f4d04e;
+}
+
+.container .box-2 .content-page .paragraphe p {
+    color: #6b6b6b;
+}
+.container .box-3 {
+    display: flex;
+    align-items: center;
+}
+.container .box-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.container .box-3 p {
+    vertical-align: center;
+    transform: translate(0,10px);
+    margin: 0 20px;
+}
+
+@media (max-width:430px) {
+    .container {
+        max-width: 300px;
+        vertical-align: middle;
+        margin: 2rem auto ;
+    }
+}
+
+
