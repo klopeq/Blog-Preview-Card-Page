@@ -11,6 +11,9 @@ body {
     background-color: #f4d04e;
     overflow: hidden;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -20,9 +23,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 0 #000,
-                -1px -1px 0 #000;
-    vertical-align: middle;
-                
+                -1px -1px 0 #000;        
 }
 
 .container .box-1 img {
